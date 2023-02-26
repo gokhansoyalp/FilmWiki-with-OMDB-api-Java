@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvMovieName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/tv_listItem_margin"
+        android:layout_marginTop="@dimen/tv_listItem_margin"
+        android:layout_marginRight="@dimen/tv_listItem_margin"
+        android:layout_marginBottom="@dimen/tv_listItem_margin"
+        android:text="Movie Name"
+        android:textSize="@dimen/tv_listItem_tSize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvMovieDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/tv_listItem_margin"
+        android:layout_marginTop="@dimen/tv_listItem_margin"
+        android:layout_marginRight="@dimen/tv_listItem_margin"
+        android:layout_marginBottom="@dimen/tv_listItem_margin"
+        android:singleLine="true"
+        android:text="Movie Description"
+        android:textSize="@dimen/tv_listItem_tSize" />
+</LinearLayout>
